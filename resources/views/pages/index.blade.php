@@ -63,8 +63,6 @@
                                 <div class="mb-3">
                                     <i class="fas fa-bell fa-2x"></i>
                                 </div>
-                                <h5 class="card-title">Order Status Updates</h5>
-                                <p class="card-text">Receive updates and notifications on order statuses.</p>
                             </div>
                         </div>
                     </div>

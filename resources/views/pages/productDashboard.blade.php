@@ -43,7 +43,6 @@
                     <th>Product SKU</th>
                     <th>Category</th>
                     <th>Quantity</th>
-                    <th>Status</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -67,13 +66,6 @@
                         </td>
                         <td>{{ $product->category }}</td>
                         <td>{{ $product->quantity }}</td>
-                        <td>
-                            @if ($product->status)
-                                <span class="badge badge-success rounded-pill d-inline">Approved</span>
-                            @else
-                                <span class="badge badge-danger rounded-pill d-inline">Not Approved</span>
-                            @endif
-                        </td>
                         <td>
                             <a href="javascript:void(0)">
                                 <button type="button" class="btn btn-link btn-sm btn-rounded" data-toggle="modal"
